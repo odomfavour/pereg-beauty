@@ -1,0 +1,206 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.welcome h6{
+    font-size: 14px;
+    font-family: Poppins;
+    color: #6a4031;
+    font-weight: 500;
+}
+.n-right span{
+    font-size: 14px;
+    font-family: Poppins;
+    color: #6a4031;
+    font-weight: 500;
+}
+.top{
+    background: linear-gradient(270deg, #978262, #cbbaa6, #978262);
+}
+.n-right i{
+    color: #382118;
+}
+._2-nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+._2-nav ul li a{
+    font-family: Poppins;
+    list-style: none;
+    font-size: 1.1em;
+    color: #333;
+    padding: 0.25rem 0;
+    margin: 10px 1.80rem;
+}
+._2-nav ul li i{
+    color: white;
+    padding: 16px;
+    border-radius: 50px;
+    background: #daa997;
+}
+._2-nav ul li i:hover{
+    color: #6a4031;
+    background: #e0c9c0;
+}
+
+.carousel-inner{
+    height: 80vh;
+}
+.n-right > *{
+    margin: 0 18px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+}
+._2-nav ul li a{
+    font-family: Poppins;
+    font-size: 16px;
+    color: #6a4031;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.ab-img{
+    position: relative;
+    margin-bottom: 0;
+}
+.about-us .ab-img h4{
+    position: absolute;
+    top: 71px;
+    color: #c7ac85;
+    font-size: 30px;
+    font-family: Poppins;
+    right: -26%;
+    transform: rotate(-90deg) translateY(0);
+}
+.about-us .contain .ab-para p:before {
+    content: "";
+    height: 5px;
+    width: 125px;
+    /* background: -webkit-gradient(linear, left top, right top, from(#6a4031), to(#fff)); */
+    background: linear-gradient(90deg, #6a4031, #fff);
+    border-image-slice: 1;
+    position: absolute;
+    top: 65px;
+    left: 10;
+}
+.about-us .contain h1{
+    margin-top: 14px;
+    color: #6a4031;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    padding-bottom: 37px;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: Poppins;
+    margin-bottom: -11px;
+}
+.about-us .contain p{
+    font-size: 17px;
+    font-family: Poppins;
+    padding: 35px 0;
+    line-height: 1.9em;
+}
+.btn-view{
+    border: 1px solid #b39083;
+    background: #6a4031;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+p.lead{
+    font-family: Poppins;
+    font-size: 9px;
+    color:#6a4031;
+}
+#arrivals .carousel-indicators{
+    position: static;
+    padding-top: 30px;
+}
+#arrivals .carousel-indicators li{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/left-arrow.svg);
+    padding: 19px;
+    border: 3px solid #382118;
+    border-radius:50px;
+    justify-content: end;
+    margin-left: 30px;
+    color: black;
+}
+.carousel-control-next-icon{
+    background-image: url(../img/right-arrow.svg);
+    padding: 19px;
+}
+#arrivals .carousel-control-next,
+#arrivals .carousel-control-prev{
+    width: auto;
+}
+#arrivals .carousel-control-next{
+    right: -35px;
+}
+
+#arrivals .carousel-control-prev{
+    /* left: -20px; */
+}
+.intro-t h5{
+    font-family: Poppins;
+    font-size: 14px;
+}
+.serv{
+    border: 2px solid #b39083 !important;
+    padding: 6px 25px !important;
+    background: #6a4031 !important;
+    color: white !important;
+    border-radius: 70px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-family: Poppins;
+}
+.mission.container{
+    overflow: hidden;
+}
+.filterDiv{
+    float: left;
+    width: auto;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+.show{
+    display: block;
+}
+.btn{
+    border: none;
+}
+.btn.active{
+    background-color: #666;
+}
