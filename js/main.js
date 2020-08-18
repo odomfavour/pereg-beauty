@@ -57,7 +57,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-const hamburgerIcon = document.querySelector('.hamburger-menu');
+const hamburgerIcon = document.querySelector('.nav-ops-menu');
 const hamburger = document.querySelector('.hamburger');
 hamburgerIcon.addEventListener('click', () => {
   hamburger.classList.toggle('change');
