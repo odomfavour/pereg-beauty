@@ -1,0 +1,11 @@
+.nav-pills .nav-link.active {
+    background: #6a4031 !important;
+}
+
+.product-box img {
+    height: 278px;
+}
+
+.image-holder {
+    text-align: center;
+}
