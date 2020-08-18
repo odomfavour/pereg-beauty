@@ -1,8 +1,24 @@
+// $(document).ready(function () {
+
+//   $(window).scroll(function () {
+//     var sc = $(window).scrollTop();
+//     if (sc > 100){
+//       $("._2-nav").addClass("sticky");
+//     }
+//     else{
+//       $("._2-nav").removeClass("sticky");
+//     }
+//   });
+  
+// });
+
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
+  //add the "show" class
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
@@ -40,3 +56,12 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+const hamburgerIcon = document.querySelector('.hamburger-menu');
+const hamburger = document.querySelector('.hamburger');
+hamburgerIcon.addEventListener('click', () => {
+  hamburger.classList.toggle('change');
+  
+});
+
+

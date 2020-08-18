@@ -17,7 +17,40 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
+        <div class="hamburger">
+            <div class="hamburger-container">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <div class="hamburger-list">
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">Home</a>
+                    </li>
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">About Us</a>
+                    </li>
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">News</a>
+                    </li>
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">Gallery</a>
+                    </li>
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">Events</a>
+                    </li>
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">Pricing</a>
+                    </li>
+                    <li class="hamburger-item">
+                        <a href="#" class="hamburger-link">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </div>
         <nav class="navbar top">
             <div class="welcome">
                 <h6>Welcome to our Styling!</h6>
@@ -32,41 +65,46 @@
         </nav>
         <nav class="navbar _2-nav">
             <ul class="nav">
-                <li class="logo"><a href=""><img src="img/logo.svg" alt=""></a></li>
-                <li class="nav-item">
+                <li class="col-1 logo"><a href=""><img src="img/logo.svg" alt=""></a></li>
+                <li class="changes-1 nav-item">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Shop</a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Product</a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Pages</a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Mega Menu</a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 nav-item changes-2">
                     <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 nav-item changes-2">
                     <a class="nav-link" href="#"><i class="fa fa-user"></i></a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 nav-item changes-2">
                     <a class="nav-link" href="#"><i class="fa fa-heart"></i></a>
                 </li>
-                <li class="nav-item">
+                <li class="col-1 nav-item changes-2">
                     <a class="nav-link" href="#"><i class="fa fa-briefcase"></i></a>
                 </li>
             </ul>
+           
+            
+
         </nav>
     </header>
-    <div class="bd-example">
+
+    <!-- Banner Carousel -->
+    <div class="bd-example" id="banner">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -76,24 +114,52 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/banner-hair.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <ul class="social-icons list-inline">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                    <div class="container">
+                        <div class="bannerContent">
+                            <h5 class="text-left">We Talk Hair</h5>
+                            <p class="text-left">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/natural-hair.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="social-icons list-inline">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                    <div class="container">
+                        <div class="bannerContent">
+                            <h5 class="text-left">Pereg Beauty<br>Store</h5>
+                            <p class="text-left">Let's Make Beauty Out Of You</p>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/banner-hair.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <ul class="social-icons list-inline">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                    <div class="container">
+                        <div class="bannerContent">
+                            <h5 class="text-left">First slide label</h5>
+                            <p class="text-left">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
                     </div>
+
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -114,7 +180,7 @@
             <div class="row">
                 <div class="col-md-4 col-12 offset-md-1">
                     <div class="ab-img">
-                        <img class="img-fluid" src="img/about.jpg" alt="">
+                        <img class="img-fluid" src="img/hairProduct5.png" alt="">
                         <h4>ABOUT US</h4>
                     </div>
                 </div>
@@ -152,23 +218,38 @@
         <div class="container">
             <div class="row">
                 <div class="text-center">
-                    <p class="lead pb-5">Arrivals</p>
-                    <h3>For Your Hair</h3>
+                    <div class="col-12 mt-5">
+                        <p class="lead pb-2">Newest Arrivals</p>
+                        <h3 class="foll">For Your Hair</h3>
+                    </div>
+
                     <div id="carouselServices" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-md-4 px-md-2">
-                                        <img class="img-fluid" src="img/arrived.jpg" alt="">
-                                        <div class="ab-product">
-                                            <h6>Shiner black hair color</h6>
+                                        <img class="img-fluid" src="img/hairProduct5.png" alt="">
+                                        <div class="ab-product mt-1">
+                                            <h6>Leave-in Conditioner</h6>
+                                            <span><del><span class="px-2 text-danger">$4,000</span></del><span
+                                                    class="text-success">$2,000</span></span>
                                         </div>
                                     </div>
                                     <div class="col-md-4 px-md-2">
-                                        <img class="img-fluid" src="img/arrived2.jpg" alt="">
+                                        <img class="img-fluid" src="img/hairProduct4.png" alt="">
+                                        <div class="ab-product mt-1">
+                                            <h6>Hair Paint Wax</h6>
+                                            <span><del><span class="px-2 text-danger"></span></del><span
+                                                    class="text-success">$1,500</span></span>
+                                        </div>
                                     </div>
                                     <div class="col-md-4 px-md-2">
-                                        <img class="img-fluid" src="img/arrived3.jpg" alt="">
+                                        <img class="img-fluid" src="img/hairProduct7.png" alt="">
+                                        <div class="ab-product mt-1">
+                                            <h6>In-Between Hair Wash</h6>
+                                            <span><del><span class="px-2 text-danger"></span></del><span
+                                                    class="text-success">$2,000</span></span>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -206,19 +287,19 @@
             </div>
         </div>
     </section>
-
+    <br>
     <!-- Working Hours Section -->
-    <section>
+    <section class="mt-5" id="working-hours">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="title text-center">
+                    <div class="title text-center mt-5 mb-5">
                         <h5>Work</h5>
                         <h2>Working Hours</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row working-brands">
                         <div class="col-sm-4 col-6">
                             <div class="logo">
                                 <div class="text-center">
@@ -253,7 +334,7 @@
                             <div class="logo">
                                 <div class="text-center">
                                     <a href="#">
-                                        <img src="img/4.png" alt="">
+                                        <img class="pt-3" src="img/4.png" alt="">
                                         <p>Hair Comb</p>
                                     </a>
                                 </div>
@@ -263,7 +344,7 @@
                             <div class="logo">
                                 <div class="text-center">
                                     <a href="#">
-                                        <img src="img/5.png" alt="">
+                                        <img class="pt-3" src="img/5.png" alt="">
                                         <p>Hair Comb</p>
                                     </a>
                                 </div>
@@ -273,7 +354,7 @@
                             <div class="logo">
                                 <div class="text-center">
                                     <a href="#">
-                                        <img src="img/6.png" alt="">
+                                        <img class="pt-3" src="img/6.png" alt="">
                                         <p>Hair Comb</p>
                                     </a>
                                 </div>
@@ -299,26 +380,38 @@
         </div>
     </section>
 
+    <div class="alarm-clock">
+        <div class="boi-h1">
+            <h1>Pereg Beauty Shop</h1>
+        </div>
+        <div class="boi-p">
+            <p>Our Services</p>
+        </div>
+    </div>
+
     <!-- Services Section -->
     <section class="services">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="intro-t">
-                        <h5><i>Arya Stark</i></h5>
+                    <div class="arya">
+                        <div class="intro-t mb-4">
+                            <h4>- Arya Stark</h4>
+                        </div>
+                        <div class="intro-h mb-5">
+                            <h1>Our Services <br> and Price</h1>
+                        </div>
+                        <div class="intro-p mb-4">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim velit illo, blanditiis est
+                                quas veniam sint voluptatem nemo excepturi. Eligendi.</p>
+                        </div>
+                        <button class="btn serv">More About Us</button>
                     </div>
-                    <div class="intro-h">
-                        <h1>Our Services and Price</h1>
-                    </div>
-                    <div class="intro-p">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim velit illo, blanditiis est
-                            quas veniam sint voluptatem nemo excepturi. Eligendi.</p>
-                    </div>
-                    <button class="btn serv">More About Us</button>
+
                 </div>
                 <div class="col-md-6">
                     <div class="service-img">
-                        <img src="img/servce-img.jpg" alt="">
+                        <img src="img/natural-hair.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -326,7 +419,7 @@
     </section>
 
     <!-- Hair Color Section -->
-    <section class="color">
+    <!-- <section class="color">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -346,18 +439,28 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
+    <div class="boi">
+        <div class="boi-h1">
+            <h1>Pereg Beauty Shop</h1>
+        </div>
+        <div class="boi-p">
+            <p>Our Mission</p>
+        </div>
+    </div>
     <!-- Our Mission -->
     <section class="mission">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="mission-h5">
-                        <h5>Our Mission</h5>
+                <div class="col-md-6 mission-1">
+                    <div class="mission-h5 mb-4">
+                        <h5>- Our Mission</h5>
                     </div>
-                    <h2>Mission</h2>
-                    <div class="mission-text">
+                    <div class="mission-h2 mb-4">
+                        <h2>Mission</h2>
+                    </div>
+                    <div class="mission-text mb-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ratione tenetur similique
                             libero sequi corrupti. Eligendi cum quia commodi itaque, harum.
                             <br> Iure aut tempore mollitia
@@ -367,12 +470,12 @@
                     </div>
                     <button class="btn">More About Us</button>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mission-2">
                     <div class="row">
-                        <div class="col-md-6 px-md-3 py-md-2">
+                        <div class="col-md-6 px-md-3 py-md-3">
                             <img class="img-fluid" src="img/arrived4.jpg" alt="">
                         </div>
-                        <div class="col-md-6 px-md-3 py-md-2">
+                        <div class="col-md-6 px-md-3 py-md-3">
                             <img class="img-fluid" src="img/arrived.jpg" alt="">
                         </div>
                     </div>
@@ -393,76 +496,422 @@
     <section class="products">
         <div class="container-fluid">
             <br><br>
-            <div class="row">
-                <div class="col-md-12">
-                    <h5>Products</h5>
-                    <h2>Our Products</h2>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="products-heading">
+                            <h5 class="mb-4">Products</h5>
+                            <h2 class="mb-5">Our Products</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="myBtnContainer" class="row d-block">
+
+            <div id="myBtnContainer" class="row d-block text-center mb-5">
                 <button class="btn active" onclick="filterSelection('all')">All Items</button>
                 <button class="btn" onclick="filterSelection('makeup')">Makeup</button>
                 <button class="btn" onclick="filterSelection('massage')">Massage</button>
                 <button class="btn" onclick="filterSelection('hair')">Hair</button>
             </div>
-            <div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="filterDiv massage  makeup">
-                                <img src="img/arrived3.jpg" class="img-fluid" alt="">
+            <div class="container pro-row">
+                <div class="row">
+                    <div class="col-md-3 filterDiv massage makeup py-2">
+                        <img src="img/arrived3.jpg" class="img-fluid" alt="">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv makeup py-3">
+                        <img src="img/arrived4.jpg" alt="" class="img-fluid">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv massage py-3">
+                        <img src="img/arrived5.jpg" alt="" class="img-fluid">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv hair py-3">
+                        <img src="img/arrived6.jpg" alt="" class="img-fluid">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv hair makeup py-3">
+                        <img src="img/arrived3.jpg" class="img-fluid" alt="">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv hair py-3">
+                        <img src="img/arrived6.jpg" alt="" class="img-fluid">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv massage py-3">
+                        <img src="img/arrived4.jpg" alt="" class="img-fluid">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                    <div class="col-md-3 filterDiv makeup py-3">
+                        <img src="img/arrived5.jpg" alt="" class="img-fluid">
+                        <h5>Shiner black hair color</h5>
+                        <span><del><span class="px-2 text-danger">$100.00</span></del><span
+                                class="text-success">$1,500</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Products -->
+    <section id="latest">
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title text-center">
+                        <h6>Latest Cosmetics</h6>
+                        <h2>Dolor sit amet, consectetuer </h2>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="feature-box box">
+                        <div class="media features features-rtl">
+                            <div class="media-body">
+                                <h4 class="mt-0">hair comb</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates?
+                                </p>
+                            </div>
+                            <img src="img/1.png" alt="" class="align-self-start ml-3 img-fluid feature-icon">
+                        </div>
+                        <div class="media features features-rtl">
+                            <div class="media-body">
+                                <h4 class="mt-0">scissors</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quidem!
+
+                                </p>
+                                <img src="img/2.png" alt="" class="align-self-start ml-3 feature-ivon img-fluid">
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv makeup">
-                                <img src="img/arrived4.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="bottle-image">
+                        <img src="img/Layer-192.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="feature-box">
+                        <div class="media features">
+                            <img src="img/3.png" alt="" class="align-self-start mr-3 img-fluid">
+                            <div class="media-body">
+                                <h4 class="mt-0">hair dryer</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi!</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv massage">
-                                <img src="img/arrived5.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv hair">
-                                <img src="img/arrived6.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv hair makeup">
-                                <img src="img/arrived3.jpg" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv hair">
-                                <img src="img/arrived6.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv massage">
-                                <img src="img/arrived5.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="filterDiv makeup">
-                                <img src="img/arrived4.jpg" alt="" class="img-fluid">
+                        <div class="media features">
+                            <img src="img/4.png" alt="" class="img-fluid align-self-start mr-3">
+                            <div class="media-body">
+                                <h4 class="mt-0">hair straightener</h4>
+                                <p class="last-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque?</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <div class="no-fit-vex">
+        <div class="boi-h1">
+            <h1>New Arrivals For Your Hair</h1>
         </div>
+        <div class="boi-p">
+            <p>Just in...</p>
+        </div>
+    </div>
+
+    <!-- New Arrivals -->
+    <section id="new-arrivals" class="pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="ar-title text-center">
+                        <div>
+                            <h5 class="mb-0">Arrivals</h5>
+                            <h2>New Arrivals</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <!-- <ol class="carousel-indicators">
+                            <li data-target="#carouselServices" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselServices" data-slide-to="1" class=""></li>
+                            <li data-target="#carouselServices" data-slide-to="2" class=""></li>
+                        </ol> -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 px-md-2">
+                                        <img class="img-fluid" src="img/hairProduct5.png" alt="">
+                                        <div class="ab-product mt-2">
+                                            <h6>Shiner black hair color</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 px-md-2">
+                                        <img class="img-fluid" src="img/hairProduct4.png" alt="">
+                                        <div class="ab-product mt-2">
+                                            <h6>Shiner black hair color</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 px-md-2">
+                                        <img class="img-fluid" src="img/hairProduct7.png" alt="">
+                                        <div class="ab-product mt-2">
+                                            <h6>Shiner black hair color</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 px-md-2">
+                                        <img class="img-fluid" src="img/hairProduct6.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 px-md-2">
+                                        <img class="img-fluid" src="img/hairProduct8.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 px-md-2">
+                                        <img class="img-fluid" src="img/hairProduct5.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#carouselExampleCaptions" class="carousel-control-prev" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a href="#carouselExampleCaptions" class="carousel-control-next" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Latest Products -->
-    <section id="latest">
-        
+    <div class="champagne pt-5">
+        <div class="champagne-h1">
+            <h1>Customer Reviews</h1>
+        </div>
+        <div class="champagne-p">
+            <p>Our Reviews....</p>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <section id="testimony">
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselTestimony" class="carousel slide">
+                        <!-- <ol class="carousel-indicators">
+                            <li data-target="#carouselTestimony" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselTestimony" data-slide-to="1" class=""></li>
+                            <li data-target="#carouselTestimony" data-slide-to="2" class=""></li>
+                        </ol> -->
+                        <div class="carousel-inner mt-5 mb-5">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img class="img-fluid test-img" src="img/hairProduct1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="testimony-text align-items-center justify-content-center mt-5">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eaque
+                                                recusandae earum doloremque ut velit.</p>
+                                            <div class="testifier">
+                                                <h4>Christi Wales <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img class="img-fluid test-img" src="img/hairProduct2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="testimony-text align-items-center justify-content-center mt-5">
+                                            <p>Secondus ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                                                eaque
+                                                recusandae earum doloremque ut velit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img class="img-fluid test-img" src="img/hairProduct2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="testimony-text align-items-center justify-content-center mt-5">
+                                            <p>Surprise !!! ipsum dolor sit amet consectetur adipisicing elit.
+                                                Excepturi,
+                                                eaque
+                                                recusandae earum doloremque ut velit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#carouselTestimony" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a href="#carouselTestimony" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Sub-Footer -->
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row call-us align-items-center justify-content-center mt-3">
+                        <div class="col-md-3">
+                            <i class="fa fa-headphones fa-4x"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h4>call us</h4>
+                            <p>+91-123-456-789</p>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="col-md-4 newsletter mt-3">
+                    <h4>Newsletter</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, commodi!</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <input type="email" class="newsletter-input" name="email" id="" placeholder="Enter your email">
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Footer -->
+    <footer id="footer" class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-logo">
+                        <h3>PeregBeauty</h3>
+                    </div>
+                    <div class="footer-logo-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem eos nostrum impedit
+                            ea dolore, facilis quod aperiam quidem?</p>
+                    </div>
+                    <div class="footer-icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-links">
+                    <h3>Useful Links</h3>
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Gift Plans</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Hair Problems ?</a></li>
+                </div>
+                <div class="col-md-3 footer-portfolio">
+                    <h1>Portfolio</h1>
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-3">
+                            <img class="img-fluid" src="/img/hairProduct5.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="/img/hairProduct5.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="/img/hairProduct5.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="/img/hairProduct5.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="/img/hairProduct5.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="/img/hairProduct5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-contact-us">
+                    <h3>Contact Us</h3>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-location-arrow"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Pereg Beauty Store <br>Location:</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Call Us: 123-456-7898</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Email Us:<br>Support@pereg.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-fax"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Fax:123456</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
