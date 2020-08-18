@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section input {
+    height: 50px;
+}
+
+.contact-section .form-control:focus {
+    outline: none !important;
+}
+
+.booking-section p:first-child {
+    background: none;
+}
+
+.booking-section p {
+    background: #f5f5f5;
+}
+
+.booking-section p .fa {
+    background: #6a4031;
+    width: 40px;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.btn-brown {
+   background: #6a4031;
+    color: #fff; 
+}
