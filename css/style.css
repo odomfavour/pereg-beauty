@@ -119,7 +119,7 @@ a:hover{
         -o-transform: none;
     }
 }
-@media (max-width: 1290px) {
+/* @media (max-width: 1290px) {
     .changes-1{
         display: none;
     }
@@ -129,6 +129,28 @@ a:hover{
     .changes-2{
         columns: 3;
     }
+} */
+.nav-ops{git 
+    background-color: chocolate;
+}
+.nav-ops-ops{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-ops-ops li{
+    list-style: none;
+}
+.nav-ops-menu{
+    width: 35px;
+    height: 30px;
+    /* background: red; */
+    z-index: 999999999999;
+    top: 80px;
+    right: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .hamburger-container{
     width: 100%;
@@ -168,7 +190,7 @@ a:hover{
 .line{
     width: 100%;
     height: 3px;
-    background-color: chocolate;
+    background-color: rgb(24, 13, 5);
     transition: all 0.5s
 }
 .change .line-1{
