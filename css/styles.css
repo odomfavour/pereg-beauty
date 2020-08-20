@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+.top-nav {
+    background: linear-gradient(270deg, #978262, #cbbaa6, #978262);
+    font-family: "Poppins";
+    padding: 5px 0;
+}
+
+.top-nav p {
+    margin-bottom: 0;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-nav .nav-item a {
+    margin-right: 15px !important;
+    color: #6a4031 !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-nav .dropdown-menu {
+        margin: 0.125rem -42px 0;
+}
+
+.media {
+    margin-top: 100px;
+}
+
 .banner {
     background: linear-gradient(45deg, #00000067, #00000097),url('../img/natural-hair.jpg');
     background-repeat: no-repeat;
@@ -99,8 +128,17 @@
     text-decoration: none;
 }
 
+.contact-list li {
+    margin-bottom: 10px;
+}
+
 @media(max-width: 768px) {
     .section-header {
         width: 100%;
     }
+
+    .footer-links, .footer-portfolio {
+        margin-top: 20px;
+    }
+
 }
