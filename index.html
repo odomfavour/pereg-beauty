@@ -14,32 +14,15 @@
 
     <!-- Font-Awesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.css">
+
+    <!-- Animate On Scroll CSS -->
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 
-<body>
+<body class="">
     <!-- Header -->
     <header>
-
-
-
-
-
-
-
-        <nav class="navbar top">
-            <div class="welcome">
-                <h6>Welcome to our Styling!</h6>
-            </div>
-            <div class="navbar n-right">
-                <div class="ng"><span>NG</span></div>
-                <div class="eng"><span>ENG</span></div>
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-            </div>
-
-        </nav>
-
-        <nav class="nav-ops pt-3 pb-3">
+        <nav class="nav-ops pt-3 pb-3 fixed-top">
             <div class="nav-ops-ops">
                 <li class="col-1 logo"><a href=""><img src="img/logo.svg" alt=""></a></li>
                 <div class="nav-ops-menu">
@@ -51,7 +34,6 @@
 
             <div class="hamburger">
                 <div class="hamburger-container">
-
                     <div class="hamburger-list">
                         <li class="hamburger-item">
                             <a href="#" class="hamburger-link">Home</a>
@@ -79,6 +61,19 @@
             </div>
         </nav>
 
+        <nav class="navbar top ">
+            <div class="welcome">
+                <h6>Welcome to our Styling!</h6>
+            </div>
+            <div class="navbar n-right">
+                <div class="ng"><span>NG</span></div>
+                <div class="eng"><span>ENG</span></div>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+
+        </nav>
+
         <nav class="navbar _2-nav">
             <ul class="nav">
                 <li class="col-1 logo"><a href=""><img src="img/logo.svg" alt=""></a></li>
@@ -91,15 +86,15 @@
                 <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Product</a>
                 </li>
-                <li class="col-1 changes-1 nav-item">
+                <!-- <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Blog</a>
-                </li>
+                </li> -->
                 <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Pages</a>
                 </li>
-                <li class="col-1 changes-1 nav-item">
+                <!-- <li class="col-1 changes-1 nav-item">
                     <a class="nav-link" href="#">Mega Menu</a>
-                </li>
+                </li> -->
                 <li class="col-1 nav-item changes-2">
                     <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
                 </li>
@@ -122,11 +117,11 @@
     <!-- Banner Carousel -->
     <div class="bd-example" id="banner">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/banner-hair.jpg" class="d-block w-100" alt="...">
@@ -138,9 +133,9 @@
                         <li><a href=""><i class="fa fa-instagram"></i></a></li>
                     </ul>
                     <div class="container">
-                        <div class="bannerContent">
+                        <div data-aos="fade-up" class="bannerContent">
                             <h5 class="text-left">We Talk Hair</h5>
-                            <p class="text-left">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <!-- <p class="text-left">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
                         </div>
                     </div>
                 </div>
@@ -156,7 +151,7 @@
                     <div class="container">
                         <div class="bannerContent">
                             <h5 class="text-left">Pereg Beauty<br>Store</h5>
-                            <p class="text-left">Let's Make Beauty Out Of You</p>
+                            <!-- <p class="text-left">Let's Make Beauty Out Of You</p> -->
                         </div>
                     </div>
                 </div>
@@ -172,7 +167,7 @@
                     <div class="container">
                         <div class="bannerContent">
                             <h5 class="text-left">First slide label</h5>
-                            <p class="text-left">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <!-- <p class="text-left">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
                         </div>
                     </div>
 
@@ -195,13 +190,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12 offset-md-1">
-                    <div class="ab-img">
+                    <div data-aos="zoom-in-down" class="ab-img">
                         <img class="img-fluid" src="img/hairProduct5.png" alt="">
                         <h4>ABOUT US</h4>
                     </div>
                 </div>
                 <div class="col-md-5 offset-md-1 col-12">
-                    <div class="contain">
+                    <div data-aos="fade-left" class="contain">
                         <div class="ab-title">
                             <h1>20+ Years Of Experience</h1>
                         </div>
@@ -305,7 +300,7 @@
     </section>
     <br>
     <!-- Working Hours Section -->
-    <section class="mt-5" id="working-hours">
+    <section class="mt-5 pb-5" id="working-hours">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -314,7 +309,7 @@
                         <h2>Working Hours</h2>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 pb-5">
                     <div class="row working-brands">
                         <div class="col-sm-4 col-6">
                             <div class="logo">
@@ -382,10 +377,10 @@
                     <div class="working-hours-contain">
                         <div>
                             <ul>
-                                <li>Working Days <span>Monday to Saturday</span></li>
-                                <li>Working Hours <span>10am to 9pm</span></li>
-                                <li>Saturday <span>10am to 4pm</span></li>
-                                <li>Sunday <span>Please Stay in Your House</span></li>
+                                <li><h5 data-aos="fade-left">Working Days</h5> <span data-aos="fade-down">Monday to Saturday</span></li>
+                                <li><h5 data-aos="fade-left">Working Hours</h5>  <span data-aos="fade-down">10am to 9pm</span></li>
+                                <li><h5 data-aos="fade-right">Saturday</h5> <span data-aos="fade-down">10am to 4pm</span></li>
+                                <li><h5 data-aos="fade-right">Sunday</h5> <span data-aos="fade-down">Please Stay in Your House</span></li>
                             </ul>
                         </div>
                     </div>
@@ -397,10 +392,10 @@
     </section>
 
     <div class="alarm-clock">
-        <div class="boi-h1">
+        <div data-aos="zoom-in" class="boi-h1">
             <h1>Pereg Beauty Shop</h1>
         </div>
-        <div class="boi-p">
+        <div data-aos="zoom-out" class="boi-p">
             <p>Our Services</p>
         </div>
     </div>
@@ -410,7 +405,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="arya">
+                    <div data-aos="zoom-in" class="arya">
                         <div class="intro-t mb-4">
                             <h4>- Arya Stark</h4>
                         </div>
@@ -434,28 +429,6 @@
         </div>
     </section>
 
-    <!-- Hair Color Section -->
-    <!-- <section class="color">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="hair-color">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="hair-color">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="hair-color">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <div class="boi">
         <div class="boi-h1">
@@ -465,6 +438,7 @@
             <p>Our Mission</p>
         </div>
     </div>
+
     <!-- Our Mission -->
     <section class="mission">
         <div class="container">
@@ -488,18 +462,18 @@
                 </div>
                 <div class="col-md-6 mission-2">
                     <div class="row">
-                        <div class="col-md-6 px-md-3 py-md-3">
+                        <div data-aos="flip-left" class="col-md-6 col-6 px-md-3 py-md-3 flip-box-front">
                             <img class="img-fluid" src="img/arrived4.jpg" alt="">
                         </div>
-                        <div class="col-md-6 px-md-3 py-md-3">
+                        <div data-aos="flip-right" class="col-md-6 col-6 px-md-3 py-md-3">
                             <img class="img-fluid" src="img/arrived.jpg" alt="">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 px-md-3">
+                        <div data-aos="fade-up-right" class="col-md-6 col-6 px-md-3">
                             <img class="img-fluid" src="img/arrived2.jpg" alt="">
                         </div>
-                        <div class="col-md-6 px-md-3">
+                        <div data-aos="fade-up-left" class="col-md-6 col-6 px-md-3">
                             <img class="img-fluid" src="img/arrived7.jpg" alt="">
                         </div>
                     </div>
@@ -531,49 +505,49 @@
             </div>
             <div class="container pro-row">
                 <div class="row">
-                    <div class="col-md-3 filterDiv massage makeup py-2">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv massage makeup py-2">
                         <img src="img/arrived3.jpg" class="img-fluid" alt="">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv makeup py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv makeup py-3">
                         <img src="img/arrived4.jpg" alt="" class="img-fluid">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv massage py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv massage py-3">
                         <img src="img/arrived5.jpg" alt="" class="img-fluid">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv hair py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv hair py-3">
                         <img src="img/arrived6.jpg" alt="" class="img-fluid">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv hair makeup py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv hair makeup py-3">
                         <img src="img/arrived3.jpg" class="img-fluid" alt="">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv hair py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv hair py-3">
                         <img src="img/arrived6.jpg" alt="" class="img-fluid">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv massage py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv massage py-3">
                         <img src="img/arrived4.jpg" alt="" class="img-fluid">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
                                 class="text-success">$1,500</span></span>
                     </div>
-                    <div class="col-md-3 filterDiv makeup py-3">
+                    <div data-aos="zoom-in" class="col-md-3 col-6 filterDiv makeup py-3">
                         <img src="img/arrived5.jpg" alt="" class="img-fluid">
                         <h5>Shiner black hair color</h5>
                         <span><del><span class="px-2 text-danger">$100.00</span></del><span
@@ -591,15 +565,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title text-center">
-                        <h6>Latest Cosmetics</h6>
-                        <h2>Dolor sit amet, consectetuer </h2>
+                        <h6>Pereg Hair Tools</h6>
+                        <h2>Hair friendly equipments for that natural hair</h2>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="feature-box box">
                         <div class="media features features-rtl">
                             <div class="media-body">
-                                <h4 class="mt-0">hair comb</h4>
+                                <h4 class="mt-0">Hair Comb</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates?
                                 </p>
                             </div>
@@ -607,12 +581,11 @@
                         </div>
                         <div class="media features features-rtl">
                             <div class="media-body">
-                                <h4 class="mt-0">scissors</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quidem!
-
+                                <h4 class="mt-0">Hair Dryer</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates?
                                 </p>
-                                <img src="img/2.png" alt="" class="align-self-start ml-3 feature-ivon img-fluid">
                             </div>
+                            <img src="img/2.png" alt="" class="align-self-start ml-3 img-fluid feature-icon">
                         </div>
                     </div>
                 </div>
@@ -626,7 +599,7 @@
                         <div class="media features">
                             <img src="img/3.png" alt="" class="align-self-start mr-3 img-fluid">
                             <div class="media-body">
-                                <h4 class="mt-0">hair dryer</h4>
+                                <h4 class="mt-0">Scissors</h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi!</p>
                             </div>
                         </div>
@@ -644,10 +617,10 @@
     </section>
 
     <div class="no-fit-vex">
-        <div class="boi-h1">
+        <div data-aos="fade-left" class="boi-h1 text-center">
             <h1>New Arrivals For Your Hair</h1>
         </div>
-        <div class="boi-p">
+        <div data-aos="zoom-in" class="boi-p">
             <p>Just in...</p>
         </div>
     </div>
@@ -675,13 +648,13 @@
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-md-4 px-md-2">
-                                        <img class="img-fluid" src="img/hairProduct5.png" alt="">
+                                        <img class="img-fluid" src="img/a47625a6-aace-42e2-99db-b7bff804ce43.jpg" alt="">
                                         <div class="ab-product mt-2">
                                             <h6>Shiner black hair color</h6>
                                         </div>
                                     </div>
                                     <div class="col-md-4 px-md-2">
-                                        <img class="img-fluid" src="img/hairProduct4.png" alt="">
+                                        <img class="img-fluid" src="img/Alphacia-Onion-Hair-Oil-Blend-SDL615773707-1-9e276.jpg" alt="">
                                         <div class="ab-product mt-2">
                                             <h6>Shiner black hair color</h6>
                                         </div>
@@ -754,10 +727,36 @@
                                     </div>
                                     <div class="col-md-10">
                                         <div class="testimony-text align-items-center justify-content-center mt-5">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eaque
-                                                recusandae earum doloremque ut velit.</p>
+                                            <p>Recently I placed an order for a variety of things, mostly
+                                                jsut to try them, I am a new customer I have never written a fan letter
+                                                before. But just had to tell you how much i love your products, I will never
+                                                buy anything else, my hair has never been this curly and clean. You guys are 
+                                                great and thank you.
+                                            </p>
                                             <div class="testifier">
-                                                <h4>Christi Wales <i class="fa fa-star"></i>
+                                                <h4>Christiana Ekpo  <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img class="img-fluid test-img" src="img/hairProduct2.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="testimony-text align-items-center justify-content-center mt-5">
+                                            <p>I've tried alot of brands, high end brands, department store brands, but this
+                                                was the first one that really made an impact after the first week, with pereg
+                                                shampoo, I noticed a difference after the after the first use, I'm hooked and a big fan.
+                                            </p>
+                                            <div class="testifier">
+                                                <h4>Peace Ikpe   <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i></h4>
@@ -773,24 +772,17 @@
                                     </div>
                                     <div class="col-md-10">
                                         <div class="testimony-text align-items-center justify-content-center mt-5">
-                                            <p>Secondus ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-                                                eaque
-                                                recusandae earum doloremque ut velit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <img class="img-fluid test-img" src="img/hairProduct2.jpg" alt="">
-                                    </div>
-                                    <div class="col-md-10">
-                                        <div class="testimony-text align-items-center justify-content-center mt-5">
-                                            <p>Surprise !!! ipsum dolor sit amet consectetur adipisicing elit.
-                                                Excepturi,
-                                                eaque
-                                                recusandae earum doloremque ut velit.</p>
+                                            <p>I too love your products, they are just the best. I have been searching for
+                                                almost two years for a product that works on my hair. Thanks goodness I finally 
+                                                found Pereg hair care products.Abeg una too much !
+                                            </p>
+                                            <div class="testifier">
+                                                <h4>Joyce Oluwaseun <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i></h4>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -858,7 +850,7 @@
                         <i class="fa fa-youtube"></i>
                     </div>
                 </div>
-                <div class="col-md-3 footer-links">
+                <div class="col-md-2 footer-links">
                     <h3>Useful Links</h3>
                     <li><a href="#">Email Us</a></li>
                     <li><a href="#">Help Center</a></li>
@@ -870,22 +862,22 @@
                 <div class="col-md-3 footer-portfolio">
                     <h1>Portfolio</h1>
                     <div class="row text-center">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-4 col-md-4 mb-3">
                             <img class="img-fluid" src="/img/hairProduct5.png" alt="">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4 col-md-4">
                             <img class="img-fluid" src="/img/hairProduct5.png" alt="">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4 col-md-4">
                             <img class="img-fluid" src="/img/hairProduct5.png" alt="">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4 col-md-4">
                             <img class="img-fluid" src="/img/hairProduct5.png" alt="">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4 col-md-4">
                             <img class="img-fluid" src="/img/hairProduct5.png" alt="">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4 col-md-4">
                             <img class="img-fluid" src="/img/hairProduct5.png" alt="">
                         </div>
                     </div>
@@ -928,6 +920,9 @@
             </div>
         </div>
     </footer>
+    <footer id="last-last">
+        <h5>Fully Optimised for the Samsung S5</h5>
+    </footer>
 
 
 
@@ -943,6 +938,14 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Javascript -->
     <script src="js/bootstrap.js"></script>
+    <!-- Animate On Scroll Javascript -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:1400,
+            delay: 500,
+        });
+    </script>
 </body>
 
 </html>
