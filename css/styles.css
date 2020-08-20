@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background: linear-gradient(45deg, #00000067, #00000097),url('../img/natural-hair.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    color: #fff
+}
+
+.product-box img {
+    height: 278px;
+
+}
+
+.image-holder {
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-holder img {
+    transform: scale(0.8);
+    transition: 2s ease-in-out;
+}
+
+.product-box:hover img {
+    transform: scale(1);
+}
+
+.card {
+    background:  #f8dcc6;
+}
+
+.product-box {
+    position: relative;
+}
+
+.product-title p {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.price-tag {
+    background: #6a4031;
+    color: #fff;
+    position: absolute;
+    width: 31%;
+    padding: 10px 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.price-tag p {
+    margin-bottom: 0;
+}
+
+.section-header {
+    width: 60%;
+    margin: 50px auto 100px;
+}
+
+.section-header h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6a4031;
+    margin-bottom: 15px;
+}
+
+.bottled {
+    background:  #f8dcc6;
+}
+
+.customer-reviews {
+    background: #a58a6b;
+}
+
+.sub-footer {
+    background: linear-gradient(270deg, #978262, #cbbaa6, #978262);
+}
+
+#footer {
+    background: #553d34;
+    color: #fff;
+}
+
+#footer ul li{
+    list-style: none;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width: 768px) {
+    .section-header {
+        width: 100%;
+    }
+}
