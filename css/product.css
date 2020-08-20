@@ -3,13 +3,62 @@
     padding: 0;
 }
 
+.products-section {
+    /* background: linear-gradient(270deg, #978262, #f8dcc6, #978262); */
+     background:  #f8dcc6;
+}
+
+#dye {
+    background: url('../img/products/hair-dyes.png') no-repeat;
+    background-size: cover;
+    height: 290px;
+    background-position: bottom center;
+}
+#strengthen {
+    background: url('../img/products/strengthen.jpg') no-repeat;
+    background-size: cover;
+    height: 290px;
+    background-position: bottom center;
+}
+
+#hair-growth {
+    background: url('../img/products/hair-growth.png') no-repeat;
+    background-size: cover;
+    height: 290px;
+    background-position: bottom center;
+}
+#beauty {
+    background: url('../img/products/hair-beauty.png') no-repeat;
+    background-size: cover;
+    height: 290px;
+    background-position: bottom center;
+}
+
 .card {
     box-shadow: 0px 33px 62px -20px rgba(0, 0, 0, 0.14);
     border-radius: 0;
     border: none;
     /* height: 300px; */
-    padding: 40px 20px;
+    padding: 5px 20px;
+    
+}
 
+.btn-brown {
+    background: #6a4031;
+    color: #fff;
+}
+
+
+.centered-btn a {
+    text-decoration: none;
+}
+
+.centered-btn a:hover {
+    color: #fff;
+}
+
+.card p {
+    font-size: 15px;
 }
 
 .section-header {
@@ -32,6 +81,9 @@
 
 .nav-pills .nav-link.active {
     background: #6a4031 !important;
+}
+.services {
+   
 }
 
 
