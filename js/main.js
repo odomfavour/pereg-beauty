@@ -58,10 +58,16 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 const hamburgerIcon = document.querySelector('.nav-ops-menu');
+const navOps = document.querySelector('.nav-ops')
 const hamburger = document.querySelector('.hamburger');
 hamburgerIcon.addEventListener('click', () => {
   hamburger.classList.toggle('change');
+  navOps.classList.toggle('change');
   
 });
+
+// import AOS from 'aos';
+// import '../css/aos.css';
+// AOS.init();
 
 
