@@ -10,12 +10,17 @@
     padding: 5px 0;
 }
 
+/* .main-slider {
+    margin-top: 50px;
+} */
+
 .top-nav p {
     margin-bottom: 0;
 }
 
 .navbar {
     min-height: 80px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-nav .nav-item a {
@@ -128,8 +133,21 @@
     text-decoration: none;
 }
 
+.footer-icons {
+    width: 30%;
+}
+
 .contact-list li {
     margin-bottom: 10px;
+}
+
+
+.customer-reviews .carousel-item .row {
+    margin: 0 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 4% !important;
 }
 
 @media(max-width: 768px) {
@@ -137,8 +155,17 @@
         width: 100%;
     }
 
+    .navbar-nav .dropdown-menu {
+        margin: 0.125rem 0px 0;
+    }
+
+
     .footer-links, .footer-portfolio {
         margin-top: 20px;
     }
+
+    .customer-reviews .carousel-item .row {
+    margin: 0 50px;
+}
 
 }
