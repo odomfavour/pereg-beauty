@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer {
+    background: #553d34;
+    color: #fff;
+}
+
+#footer ul li{
+    list-style: none;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-icons {
+    width: 30%;
+}
