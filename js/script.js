@@ -17,10 +17,10 @@ function loadDoc() {
                     header.querySelector('#home').classList.add('active');
                     break;
                 case '/about.html':
-                    header.querySelector('#about').classList.add('active');
+                    header.querySelector('#about-us').classList.add('active');
                     break;
                 case '/products-services.html':
-                    header.querySelector('#tracking').classList.add('active');
+                    header.querySelector('#our-products').classList.add('active');
                     break;
                 case '/categories.html':
                     header.querySelector('#categories').classList.add('active');
