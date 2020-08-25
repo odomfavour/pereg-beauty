@@ -4,8 +4,27 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Prata;
+    src: url(others/Prata-Regular.ttf);
+}
+@font-face {
+    font-family: work sans;
+    src: url(others/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: dancer;
+    src: url(others/DancingScript-Regular.ttf);
+}
 
 
+body {
+    font-style: dancer;
+}
+.btn-brown {
+    background: #6a4031;
+    color: #fff;
+}
 .media {
     margin-top: 100px;
 }
@@ -38,6 +57,27 @@
 .product-box:hover img {
     transform: scale(1);
 }
+
+#about-section h4, .mission-heading h4, .section-header h4 {
+    font-family: dancer;
+    font-size: 35px;
+    font-weight: 900;
+    color: #6a4031;
+    letter-spacing: 2px;
+}
+
+.main-slider .carousel img {
+    height: 700px;
+}
+
+
+.footer-logo h3 {
+    font-family: dancer;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
 
 .card {
     background:  #f8dcc6;
@@ -73,9 +113,9 @@
 }
 
 .section-header h4 {
-    font-size: 18px;
+    /* font-size: 18px;
     font-weight: 600;
-    color: #6a4031;
+    color: #6a4031; */
     margin-bottom: 15px;
 }
 
@@ -85,6 +125,18 @@
 
 .customer-reviews {
     background: #a58a6b;
+}
+
+ .testifier .star.active::before, .testifier .star:hover::before, .testifier .star:hover .star::before {
+    color: #eabe12;
+    content: "\f005";
+    font-family: FontAwesome;
+}
+
+.testifier .fa-star::before {
+    color: #eabe12;
+    content: "\f006";
+    font-family: FontAwesome;
 }
 
 .sub-footer {
