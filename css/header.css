@@ -48,7 +48,7 @@
 }
 
 .header .breadcrumb {
-    background: transparent;
+    background: transparent !important;
     display: flex;
     align-items: center;
     justify-content: center;

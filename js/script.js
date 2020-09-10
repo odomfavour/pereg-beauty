@@ -31,6 +31,12 @@ function loadDoc() {
                 case '/login.html':
                     header.querySelector('#login').classList.add('active');
                     break;
+                case '/register.html':
+                    header.querySelector('#register').classList.add('active');
+                    break;
+                // case '/login.html':
+                //     header.querySelector('#login').classList.add('active');
+                //     break;
 
                 default:
                     break;

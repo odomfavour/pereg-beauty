@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-body{
-    background: #ffff;
-    font-size: 18px;
-}
 
 .header {
     background: linear-gradient(45deg, #000000c7, #00000095),url('../img/hair.jpg') no-repeat;
@@ -167,6 +163,116 @@ body{
     display: block;
     margin-top: 10px;  
 }
+
+/* team */
+.team-section{
+    padding: 30px 0;
+    margin: 60px 0;
+  }
+  .member{
+    padding: 20px 0;
+  }
+  
+  .member .member-details{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    right: 10px;
+    bottom: -2px;
+    background: #fff;
+    text-align:center;
+    transform: scale(.5);
+    visibility: hidden;
+    transition: .5s;
+  }
+
+  .member .imgbox img{
+    margin: 20px 10%;
+  }
+
+  .member .member-details{
+    width: 80%;
+    margin: 40px;
+  }
+
+  .member:hover .member-details{
+    transform: scale(1);
+    visibility: visible;
+  }
+
+  .member .member-details .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .member .member-details .content h1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: chocolate;
+    text-transform: uppercase;
+  
+  }
+
+  .member .member-details .content h1 span{
+    font-size: 16px;
+    color: #999;
+  }
+
+  .member .member-details .content h1:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 50px;
+    height: 2px;
+    color: #f00;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .member .member-details .content ul{
+    position: relative;
+    display: flex;
+    padding: 0;
+    width: 70%;
+    margin: 30px auto 0;
+    transform: translateY(100px);
+    opacity: 0 ;
+    transition: .5s;
+  }
+
+  .member:hover .member-details .content ul{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .member .member-details .content ul li{
+    list-style: none;
+    width: 25%;
+    text-align: center;
+  }
+
+  .member .member-details .content ul li a{
+    display: block;
+    color: chocolate;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid chocolate;
+    border-radius: 50%;
+
+  }
+
+  .member .member-details .content ul li a:hover{
+    background: chocolate;
+    color: #fff;
+    border: 1px solid chocolate;
+  }
+  /* team */
 
 .card{
     border-radius: 20px;
