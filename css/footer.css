@@ -9,6 +9,13 @@
     color: #fff;
 }
 
+.footer-logo h3 {
+    font-family: dancer;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
 #footer ul li{
     list-style: none;
 }
