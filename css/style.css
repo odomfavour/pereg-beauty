@@ -158,6 +158,10 @@ body {
 }
 
 @media(max-width: 768px) {
+
+    .main-slider .carousel img {
+        height: 300px;
+    }
     .section-header {
         width: 100%;
     }
